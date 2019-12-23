@@ -64,8 +64,9 @@ $(function(){
 
 /* bx_slider */
 $(document).ready(function(){
+  $('body').imagesLoaded(function(){
     $('.slider').bxSlider({
-        // 여기에 옴션설정
+        // 여기에 옵션설정
         mode: 'horizontal',  // 효과설정
         auto: true,
         speed: 500,
@@ -75,4 +76,7 @@ $(document).ready(function(){
         responsive: false,
         pager : true,  // 하단 인티케이터 표시/비표시(fales)
     });
+
+  });
+    
 });
