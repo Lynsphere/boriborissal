@@ -78,5 +78,15 @@ $(document).ready(function(){
     });
 
   });
-    
+
+  var count = 1; 
+  setInterval(function(){
+    console.log(count);
+    if(count > 3) count = 0;
+    $('#tips a').removeClass('show');
+    $('#tips a')
+        .eq(count)
+        .addClass('show');
+    count++;
+  }, 5000);
 });
