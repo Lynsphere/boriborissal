@@ -89,4 +89,22 @@ $(document).ready(function(){
         .addClass('show');
     count++;
   }, 5000);
+
+  /* 위로가기버튼 */
+  $(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $('#go_top').fadeIn();
+        } else {
+            $('#go_top').fadeOut();
+        }
+    });
+     
+    $("#go_top").click(function() {
+        $('html, body').animate({
+            scrollTop : 0
+        }, 200);
+        return false;
+    });
+});
 });
