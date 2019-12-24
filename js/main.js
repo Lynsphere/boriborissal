@@ -93,7 +93,7 @@ $(document).ready(function(){
   /* 위로가기버튼 */
   $(function() {
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 200) {
+        if ($(this).scrollTop() > 400) {
             $('#go_top').fadeIn();
         } else {
             $('#go_top').fadeOut();
