@@ -407,9 +407,7 @@ body {
 
 /* 푸터영역 */
 #main_footer {
-    height: 350px;
-    /* padding-top: 25px; */
-    padding-bottom: 150px;
+    height: 300px;
     overflow: hidden;
     background: #333333;
     color: #999;
