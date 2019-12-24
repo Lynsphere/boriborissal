@@ -113,35 +113,36 @@ body {
 }
 #main_gnb ul  li > div {
     position: absolute;
-    top: 20px;
+    top: 19px;
     z-index: -1;
-    height: 19px;
-    width: 40px;
+    height: 23px;
+    width: 45px;
     opacity: 0;
+    background-image: url('../imgs/menu_bg.png');
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
     /* background: #ccc; */
 }
 #main_gnb ul  li:nth-child(1) > div {
-    margin-left: 40px;
+    margin-left: 37px;
 }
 #main_gnb ul  li:nth-child(2) > div {
-    margin-left: 24px;
+    margin-left: 22px;
 }
 #main_gnb ul  li:nth-child(3) > div {
-    margin-left: 9px;
+    margin-left: 4px;
 }
 #main_gnb ul  li:nth-child(4) > div {
-    margin-left: 23px;
+    margin-left: 20px;
 }
 #main_gnb ul  li:nth-child(5) > div {
-    margin-left: 23px;
+    margin-left: 20px;
 }
 #main_gnb ul  li:nth-child(6) > div {
-    margin-left: 63px;
+    margin-left: 59px;
 }
 #main_gnb ul > li:hover > div {
-    background-image: url('../imgs/menu_bg.png');
     opacity: 1;
-    transition-duration: 0.5s;
 }
 #main_gnb > .container > #tips {
     position: absolute;
